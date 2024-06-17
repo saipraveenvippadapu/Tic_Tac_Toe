@@ -1,0 +1,38 @@
+.box {
+  height: 135px;
+  width: 135px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxDiv {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.tic {
+  font-size: 9.2rem;
+}
+.winner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.strg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
